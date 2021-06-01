@@ -1,0 +1,249 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Wprowadzenie &mdash; lista7 0.01 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Instalacja" href="instalacja.html" />
+    <link rel="prev" title="Welcome to lab3’s documentation!" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> lista7
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Zawartość</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Wprowadzenie</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#czym-jest-docker">Czym jest Docker?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#kilka-slow-o-docker-compose">Kilka słów o docker-compose</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="instalacja.html">Instalacja</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api.html">Api</a></li>
+<li class="toctree-l1"><a class="reference internal" href="architektura.html">Architektura</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">lista7</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Wprowadzenie</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/wprowadzenie.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="wprowadzenie">
+<h1>Wprowadzenie<a class="headerlink" href="#wprowadzenie" title="Permalink to this headline">¶</a></h1>
+<p>Poniższa sekcja zawiera kilka słówn informacji dotyczących zagadnień takich jak serwis <em>Docker</em> i <em>docker-compose</em></p>
+<div class="section" id="czym-jest-docker">
+<h2>Czym jest Docker?<a class="headerlink" href="#czym-jest-docker" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><em>Docker</em> to oprogramowanie <em>open-source</em>, przy pomocy którego można uruchamiać aplikacje jako niezależne od siebie kontenery  zgodnie z konceptem <em>application as service</em>,
+w chmurze bądź też lokalnie. Jego niepodważalną zaletą jest fakt, że kontenery platformy Docker mogą zostać uruchomione w dowolnym miejscu, pod systemem operacyjnym Windows
+lub Linux.</p></li>
+<li><p><em>Docker</em> krzysta z architektury typu klient - serwer. Klient komunikuje się z serwerem, który wykonuje wszystkie zadania związane z budowaniem, uruchamianiem i dystrybucją kontenerów.
+Klient i serwer mogą znajdować się na tej samej jednostce, mogą również komunikować się zdalnie przy pomocy REST API, socketów UNIX lub interfejsu sieciowego.</p></li>
+<li><p>Kontenery zajmują optymalną ilość zasobów i zawierają w sobie wszystko co konieczne jest do uruchomienia zapakowanych w nich aplikacji tym samym pozwalając na
+nie przejmowanie się wymaganiami dotyczących środowisk / programów niezbędnych do poprawnego funkcjonowania na hoście skonteneryzowanej aplikacji.</p></li>
+<li><p>System konteneryzowania znacząco ułatwia rozwijanie aplikacji, ponieważ za jego pomocą deweloperzy są w stanie z łatwością dzielić się swoją pracą z innymi,
+zachowując przy tym pewność, że u każdego użytkownika aplikacja będzie korzystała z tych samych zasobów, w ten sam sposób, oraz jej wykonywanie będzie przebiegało tak samo
+na wszystkich komputerach, do których zostanie wysłany kontener.</p></li>
+</ul>
+</div>
+<div class="section" id="kilka-slow-o-docker-compose">
+<h2>Kilka słów o docker-compose<a class="headerlink" href="#kilka-slow-o-docker-compose" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><em>Docker Compose</em> to narzędzie służące do obsługi aplikacji składającej się z kilku kontenerów.</p></li>
+<li><p>Konfiguracja takiej aplikacji jest wykonywana poprzez edycję pliku <em>docker-compose.yaml</em> zawierającego informacje konfiguracyjne dotyczące każdej z aplikacji wchodzącej w skład kontenera.</p></li>
+<li><p>Uruchomienie aplikacji przy pomocy docker-compose to zazwyczaj proces, na który składają się trzy kroki:</p>
+<ol class="arabic simple">
+<li><p>Zdefiniowanie środowiska aplikacji w pliku <em>Dockerfile</em> celem umożliwienia jego reprodukcji u innych klientów.</p></li>
+<li><p>Zdefiniowanie usług, które wchodzą w skład aplikacji przy pomocy pliku <em>docker-compose.yaml</em> dzięki czemu będą one mogły być uruchamiane rownocześnie w odizolowanym środowisku.</p></li>
+<li><p>Uruchomienie polecenia <em>docker compose up</em>, które prowadzi do uruchomienia aplikacji wraz z wszystkimi kontenerami wchodzącymi w jej skład.</p></li>
+</ol>
+</li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="instalacja.html" class="btn btn-neutral float-right" title="Instalacja" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to lab3’s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Dawid Kupczyk.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

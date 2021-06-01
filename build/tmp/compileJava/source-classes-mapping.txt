@@ -1,0 +1,10 @@
+im/pwr/edu/pl/lab3/TestEndpoint.java
+ im.pwr.edu.pl.lab3.TestEndpoint
+im/pwr/edu/pl/lab3/Customer.java
+ im.pwr.edu.pl.lab3.Customer
+im/pwr/edu/pl/lab3/Lab3Application.java
+ im.pwr.edu.pl.lab3.Lab3Application
+im/pwr/edu/pl/lab3/CustomerController.java
+ im.pwr.edu.pl.lab3.CustomerController
+im/pwr/edu/pl/lab3/CustomerRepository.java
+ im.pwr.edu.pl.lab3.CustomerRepository
